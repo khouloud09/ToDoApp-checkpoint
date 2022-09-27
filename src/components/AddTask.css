@@ -1,0 +1,79 @@
+.add-task{
+    margin-top: 30px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+   
+}
+h1{
+    display: inline;
+    margin: 30px;
+    text-align: center;
+    text-shadow: 0 0 5px rgb(231, 221, 240);
+  }
+  .addtask-container{
+    margin:30px;
+    display:flex;
+    gap:10px;
+
+  }
+  .addtask-container input{
+    width: 500px;
+    height: 30px;
+    background: #fff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(231, 221, 240);
+    cursor: pointer;
+   
+
+  
+  }
+  .addtask-container  button{
+   width: 30px;
+   background-color: rgb(231, 221, 240);
+   border: none;
+    border-radius: 50%;
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(102, 98, 98); 
+    
+  } 
+  .addtask-container  button:hover{
+    outline: .1rem solid  black;
+    outline-offset: 2;
+    cursor: pointer;
+
+} 
+.to-do{
+  display: flex;
+  justify-content: center;
+  gap:20px;
+
+} 
+.to-do button{
+  width: 100px;
+  height: 30px;
+  background: #fff;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  font-size: 16px;
+  padding: 10px;
+  border: none;    background-color: rgb(231, 221, 240);
+  cursor: pointer;
+
+ 
+}
+
